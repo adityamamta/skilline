@@ -1,0 +1,280 @@
+@media (max-width: 991px) {
+    html {
+        font-size: 60%;
+    }
+
+    .nav-toggle {
+        display: inline-block;
+    }
+
+    .navbar {
+        position: relative;
+    }
+    .navigation {
+        position: absolute;
+        width: 70%;
+        height: fit-content;
+        top: 100%;
+        right: -100rem;
+        background-color: var(--hero-bg-color);
+        flex-direction: column;
+        z-index: 99;
+        padding-bottom: 6rem;
+        border-radius: 0 0 0 1.2rem;
+        transition: right .3s ease;
+        box-shadow: -2px 8px 8px rgba(0, 0, 0, .04);
+        gap: 0;
+        li {
+            width: 100%;
+            text-align: center;
+            a {
+                width: 100%;
+                transition: background-color .3s ease;
+                &:hover {
+                    background-color: rgba(0, 0, 0, .03);
+                }   
+            }
+        }
+
+    }
+    .nav-btn-container {
+        .nav-btn {
+            margin-top: 2rem;
+        }
+    }
+    .show-nav {
+        right: -2.8rem;
+    }
+
+    .hero-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2.5rem;
+        height: auto;
+        .img-container {
+            padding-inline: 15%;
+        }
+    }
+
+    .what-is-skilline .cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin-inline: 0;
+        .card {
+            max-width: 50rem;
+            margin-inline: auto;
+        }
+    }
+
+    .physical-classroom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .what-is-skilline {
+        .para-text {
+            margin-inline: 10%;
+        }
+    }
+
+    .physical-classroom .text-area, .features-div .text-area, .tools .text-area {
+        padding-right: 20%;
+    }
+    .tools .text-area {
+        p {
+            margin-left: 0;
+        }
+    }
+
+    .physical-classroom img, .features-div .feature-img, .tools .responsive-class {
+        width: 70%;
+        margin-inline: auto;
+    }
+    .features-div, .tools {
+        flex-direction: column;
+    }
+
+    .assessments-container {
+        grid-template-columns: repeat(1, 1fr);
+        .responsive-class {
+            order: 2;
+        }
+        .text-area {
+            order: 1;
+        }
+    }
+
+    .features-support .features-support-img {
+        transform: translateX(0);
+    }
+
+    .testimonial-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .swiper-container {
+        margin-inline: 15%;
+        .person-img {
+            width: 70%;
+        }
+        .review-card {
+            transform: translateX(-3rem);
+            width: 90%;
+        }
+    }
+    .swiper-nav-btns {
+        width: calc(70% + 5rem);
+    }
+
+    .news-resources-container {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 63rem;
+        margin-inline: auto;
+        .news-card {
+            gap: 2rem;
+            img {
+                height: 10rem;
+            }
+            .news-heading, .para-text {
+                line-height: 135%;
+            }
+            .para-text {
+                margin-top: .8rem;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    br {
+        display: none;
+    }
+    .logo-container {
+        br {
+            display: inline-block;
+        }
+    }
+    
+    .navigation {
+        width: 80%;
+    }
+
+    .hero-container {
+        h1 {
+            margin-top: 3.5rem;
+        }
+        p {
+            margin-right: 20%;
+        }
+    }
+
+
+    .what-is-skilline {
+        .para-text {
+            margin-inline: 5%;
+        }
+    }
+
+    .physical-classroom .text-area, .features-div .text-area, .tools .text-area {
+        padding-right: 10%;
+    }
+
+    .physical-classroom img, .features-div .feature-img, .tools .responsive-class {
+        width: 80%;
+    }
+
+    .swiper-container {
+        margin-inline: 5%;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .swiper {
+        height: auto;
+    }
+    .swiper-container {
+        margin-inline: 0;
+    }
+    .swiper-container {
+        .person-img {
+            width: 100%;
+        }
+        .review-card {
+            transform: translateX(0);
+            width: 95%;
+            left: 0;
+            margin-inline: auto;
+            box-shadow: none;
+        }
+    }
+    .swiper-nav-btns {
+        width: calc(100% + 5rem);
+    }
+
+    .footer-container {
+        form {
+            gap: .8rem;
+        }
+        .privacy-policy {
+            gap: .6rem;
+            span {
+                font-size: 1.4rem;
+            }
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    .testimonial-container .text-area {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+
+    .navigation {
+        width: 90%;
+    }
+
+    .hero-container {
+        row-gap: 0;
+        h1 {
+            margin-top: 2.8rem;
+        }
+        p {
+            margin-right: 0;
+        }
+        .hero-btn-container {
+            flex-direction: column;
+            button {
+                width: fit-content;
+            }
+        }
+        .img-container {
+            padding-inline: 0;
+        }
+    }
+
+    .physical-classroom .text-area, .features-div .text-area, .tools .text-area {
+        padding-right: 0%;
+    }
+
+    .what-is-skilline {
+        .para-text {
+            margin-inline: 0;
+        }
+    }
+
+    .physical-classroom img, .features-div .feature-img, .tools .responsive-class {
+        width: 100%;
+    }
+
+    .features-div .item {
+        gap: 2rem !important;
+    }
+
+
+}
