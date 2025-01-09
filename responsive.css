@@ -243,9 +243,12 @@
         row-gap: 0;
         h1 {
             margin-top: 2.8rem;
+            line-height: 135%;
         }
         p {
             margin-right: 0;
+            margin-top: 1.6rem;
+            margin-bottom: 3rem;
         }
         .hero-btn-container {
             flex-direction: column;
@@ -257,6 +260,27 @@
             padding-inline: 0;
         }
     }
+    .trusted-companies {
+        margin-block: 6rem;
+    }
+    .cloud-server .cards {
+        margin-top: 7rem;
+    }
+    .cloud-server {
+        padding-bottom: 6rem;
+    }
+    .physical-classroom {
+        gap: 6rem;
+        padding-block-end: 6rem;
+    }
+    .features-div {
+        .text-area {
+            gap: 3.2rem;
+            .list {
+                gap: 2.2rem;
+            }
+        }
+    }
 
     .physical-classroom .text-area, .features-div .text-area, .tools .text-area {
         padding-right: 0%;
@@ -265,6 +289,7 @@
     .what-is-skilline {
         .para-text {
             margin-inline: 0;
+            margin-bottom: 2rem;
         }
     }
 
