@@ -12,8 +12,8 @@ navToggle.addEventListener("click", () => {
 
 
 const swiper = new Swiper('.swiper', {
-    slidesPerView: 1, // Show 1 slide at a time
-    spaceBetween: 20, // Space between slides (optional)
+    slidesPerView: 1,
+    spaceBetween: 20,
     navigation: {
       nextEl: '.next-btn',
       prevEl: '.prev-btn',
@@ -25,11 +25,10 @@ window.addEventListener('load', () => {
     loader.classList.add('hide-loader');
 
     ScrollReveal().reveal('.slide-up', {
-    distance: '50px', // How far the element moves
-    duration: 800, // Animation duration in milliseconds
-    easing: 'ease', // Easing function
-    origin: 'bottom', // Animation start position
-    // reset: true // Animations reset when re-entering the viewport
+    distance: '50px',
+    duration: 800,
+    easing: 'ease',
+    origin: 'bottom',
     });
     ScrollReveal().reveal('.delay-400', {
         delay: 400,
