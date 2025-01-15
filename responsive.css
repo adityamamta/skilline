@@ -88,7 +88,7 @@
         margin-inline: auto;
     }
     .features-div, .tools {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .assessments-container {

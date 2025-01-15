@@ -496,7 +496,8 @@ header, .hero {
     text-align: center;
 }
 .features-div {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
     padding-top: 4rem;
     .feature-img {
@@ -536,7 +537,8 @@ header, .hero {
 }
 
 .tools {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10rem;
     row-gap: 4rem;
     padding-block: 6rem;
